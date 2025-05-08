@@ -4,9 +4,7 @@ import FAQPage from './FAQ'
 import FeaturePage from './Features'
 import Footer from '../Components/Footer'
 
-
-
-import HeaderImage from "../assets/home-img.svg";
+import HeaderImage from '../assets/home-img.svg'
 import Logo from "../assets/tumbuhin-logo.svg";
 import AboutImage from "../assets/about-pict.svg";
 import TwoFacePict from "../assets/twoface-pict.svg";

@@ -1,4 +1,5 @@
 import { Link, useLocation, useNavigate } from "react-router-dom";
+
 import { useState, useEffect } from "react";
 import Logo from "../assets/tumbuhin-logo.svg";
 import { FaBars } from "react-icons/fa";
@@ -37,7 +38,7 @@ export default function Navbar() {
   
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-10 items-center bg-[#E0F8AC] py-3 px-12 rounded-full">
-          <Link to="/Tumbuhin/" className="font-semibold text-lg text-gray-800 hover:text-green-700 transition">
+          <Link to="/" className="font-semibold text-lg text-gray-800 hover:text-green-700 transition">
             Home
           </Link>
           {isIndex ? (
