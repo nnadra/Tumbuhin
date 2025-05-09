@@ -23,7 +23,7 @@ export default function Navbar() {
   const handleAboutClick = (e) => {
     if (!isIndex) {
       e.preventDefault();
-      navigate("/home");
+      navigate("/tumbuhin");
       setTimeout(() => {
         const element = document.getElementById("about");
         element?.scrollIntoView({ behavior: "smooth" });
@@ -38,7 +38,7 @@ export default function Navbar() {
   
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-10 items-center bg-[#E0F8AC] py-3 px-12 rounded-full">
-          <Link to="/home" className="font-semibold text-lg text-gray-800 hover:text-green-700 transition">
+          <Link to="/tumbuhin" className="font-semibold text-lg text-gray-800 hover:text-green-700 transition">
             Home
           </Link>
           {isIndex ? (
