@@ -1,7 +1,6 @@
 import { Link, useLocation, useNavigate } from "react-router-dom";
 
 import { useState, useEffect } from "react";
-import Logo from "../assets/tumbuhin-logo.svg";
 import { FaBars } from "react-icons/fa";
 
 export default function Navbar() {
@@ -32,9 +31,9 @@ export default function Navbar() {
   };
 
   return (
-    <nav className={`w-full px-6 md:px-16 py-6 fixed top-0 z-50 transition duration-300 ${isIndex ? "bg-transparent" : "bg-]"}`}>
+    <nav className={`w-full px-6 md:px-16 py-6 fixed top-0 z-50 transition duration-300 ${isIndex ? "bg-transparent" : "bg-white]"}`}>
       <div className="flex justify-between items-center">
-        <img src={Logo} alt="Logo" className="w-10 h-10" />
+      <img src={`${import.meta.env.BASE_URL}assets/tumbuhin-logo.svg`} alt="Logo" className="w-10 h-10" />
   
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-10 items-center bg-[#E0F8AC] py-3 px-12 rounded-full">
