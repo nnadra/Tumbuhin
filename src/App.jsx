@@ -21,7 +21,7 @@ const AppContent = () => {
     <>
       {isNavbar && <Navbar />}
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
         <Route path="/tokotani" element={<TokoTani />} />
         <Route path="/features" element={<Features />} />
         <Route path="/blogPage" element={<BlogPage />} />
